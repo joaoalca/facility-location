@@ -1,0 +1,11 @@
+digraph "org.example:Facility-Location:jar:1.0-SNAPSHOT" { 
+	"org.example:Facility-Location:jar:1.0-SNAPSHOT" -> "com.google.ortools:ortools-java:jar:9.6.2534:compile" ; 
+	"com.google.ortools:ortools-java:jar:9.6.2534:compile" -> "com.google.ortools:ortools-linux-x86-64:jar:9.6.2534:runtime" ; 
+	"com.google.ortools:ortools-java:jar:9.6.2534:compile" -> "com.google.ortools:ortools-darwin-x86-64:jar:9.6.2534:runtime" ; 
+	"com.google.ortools:ortools-java:jar:9.6.2534:compile" -> "com.google.ortools:ortools-win32-x86-64:jar:9.6.2534:runtime" ; 
+	"com.google.ortools:ortools-java:jar:9.6.2534:compile" -> "com.google.ortools:ortools-linux-aarch64:jar:9.6.2534:runtime" ; 
+	"com.google.ortools:ortools-java:jar:9.6.2534:compile" -> "com.google.ortools:ortools-darwin-aarch64:jar:9.6.2534:runtime" ; 
+	"com.google.ortools:ortools-java:jar:9.6.2534:compile" -> "net.java.dev.jna:jna-platform:jar:5.12.1:compile" ; 
+	"com.google.ortools:ortools-java:jar:9.6.2534:compile" -> "com.google.protobuf:protobuf-java:jar:3.21.12:compile" ; 
+	"net.java.dev.jna:jna-platform:jar:5.12.1:compile" -> "net.java.dev.jna:jna:jar:5.12.1:compile" ; 
+ } 
